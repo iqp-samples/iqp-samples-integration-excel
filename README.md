@@ -7,6 +7,11 @@ This sample allows you to see the report about object presence in site zones for
 
 - Install [Power query](https://www.microsoft.com/en-US/download/details.aspx?id=39379) excell add-in. For Excel 2016 instalation power query doesn't needed.
 
+- Clone this repository to local disk
+```bash
+> git clone https://github.com/iqp-samples/iqp-samples-integration-excel.git
+```
+
 ## Usage
 
 - Set the login and password values in the auth table
