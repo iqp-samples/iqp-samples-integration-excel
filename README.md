@@ -20,7 +20,7 @@ This sample allows you to see the report about object presence in site zones.
 
 - Set the login and password values in the auth table
 
-- Set the report parameters in params table. Hours and minutes has to be double digits, like "00", "07", "15". Note that last hour statistic included to report.
+- Set the report parameters in params table. The date time format is "dd.mm.yyyy hh:mm".
 
 - Click **Load data** button to create report
 
