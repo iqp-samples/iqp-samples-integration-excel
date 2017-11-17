@@ -11,8 +11,11 @@ This sample allows you to see the report about object presence in site zones.
 ```bash
 > git clone https://github.com/iqp-samples/iqp-samples-integration-excel.git
 ```
+or just download **Presence in zones.xlsm** file.
 
 ## Usage
+
+- When you open **Presence in zones.xlsm** file first time you have too allow edit in file when Excel asks for this.
 
 - Excel file structure
 
@@ -20,11 +23,11 @@ This sample allows you to see the report about object presence in site zones.
 
 - Set the login and password values in the auth table
 
-- Set the report parameters in params table. The date time format is "dd.mm.yyyy hh:mm".
+- Set the report parameters in params table. The date time format is "dd.mm.yyyy hh:mm". Note, that last hour included to report results.
 
 - Click **Load data** button to create report
 
 ## Results
 
-- The result is a pivot table on same spreadsheet as a parameters for report. 
+- The result is a pivot table on the same spreadsheet as a parameters for report. 
 <img src="https://github.com/iqp-samples/iqp-samples-integration-excel/blob/master/img/report_example.jpg?raw=true" alt="report example"> 
